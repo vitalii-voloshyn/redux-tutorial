@@ -1,0 +1,27 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  transition: .2s all ease-in;
+}
+
+body.dark {
+  background-color: rgb(36, 34, 34);
+  color: #fff;
+}
+
+body.dark hr {
+  border-top: 1px solid rgba(0,0,0, .9);
+}
+
+body.dark .card {
+  background: rgb(37, 34, 34);
+  border: 1px solid rgba(0,0,0, .8) ;
+}
+
+.heading {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
